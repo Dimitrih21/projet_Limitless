@@ -1,0 +1,12 @@
+
+
+.cardperso{
+  width: 18rem;
+}
+
+.card img{
+  display: block;
+  object-fit: contain;
+  height:  24vh;
+  width: 100%;
+}

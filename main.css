@@ -1,0 +1,107 @@
+body {
+    background-color: transparent!important;
+    background: url("fond2.jpg") no-repeat center fixed;
+    background-size: cover;
+ }
+
+.col-1 img { width: 20px}  /*taille des logos */
+
+.menu img { width: 30px} /* taille du menu */
+
+.menu {
+  height: 100px;
+  width: 100px;
+  padding-top: 40px;
+  padding-left: 40px; }
+
+.social {
+  height: 40px;
+  width: 80px;
+  padding-top: 40px;
+  padding-left: 40px;  }
+
+#background {
+    position: fixed;
+    z-index: -1; /* pour que ce sois en "arriere plan" */
+    top: 0; /* on place la division en haut a droite */
+    right: 0; }
+
+#background img { /* logo */
+  width: 80px;
+  padding-top: 40px;
+  margin-right: 40px; }
+
+.carousel-inner { /* centrage caroussel */
+  height: 100vh;  }
+
+.carousel-indicators {
+  border-radius:  }
+
+h1 { font-size: 250px;
+     color: #ff7688;
+     opacity:0.3;
+     font-family: 'Montserrat', sans-serif;
+     text-transform: uppercase;
+     font-weight: bold;
+     font-family: 'Bebas Neue', cursive;
+     letter-spacing: 15px;   }
+
+
+p { text-align: justify; /* taille et positionnement du texte */
+  font-size: 0.8em;
+  width:350px;
+  height:150px;
+  right: 0;
+  top:600px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  position: absolute; }
+
+.bouton {  /* More */
+  background-color: rgba(255, 255,255, 0);
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-style: solid;
+  border-color: purple;
+  color: pink;
+  border-radius: 0px; }
+
+h5 {         /* Texte */
+  width:350px;
+  height:30px;
+  position:relative;
+  right: 0;
+  top:550px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  position: absolute; }
+
+.carousel-control-prev {  /* flèche */
+    padding-right: 150px; }
+
+.carousel-control-next {  /* flèche */
+    padding-left: 150px;  }
+
+.carousel-indicators {
+    position: absolute;
+    top: 0; }
+
+.carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: purple;    }
+
+.div5 {  /* ligne blanche */
+  border-right: 3px solid #fff;
+  width: 55px;
+  height: 130px;   }
+
+  @media (max-width: 768px)  {
+ h1 {font-size: 40px;}
+ .col-1 img {width:20px}  /*taille des logos */
+ .menu img {width:30px}
+ input[type="submit"]{display: block;margin: 0 auto;}
+ 
+  }
